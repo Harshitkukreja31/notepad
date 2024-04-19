@@ -1,0 +1,86 @@
+/* .note {
+    padding: 25px;
+    height: 280px;
+    width: 260px;
+    display: flex;
+    flex-direction: column;
+    background-color: blueviolet;
+    border-radius: 30px;
+  }
+  
+  .note_text {
+    flex: 1;
+    resize: none;
+    background-color: transparent;
+    font-size: 1rem;
+    line-height: 1.875rem;
+    outline: none;
+    border: none;
+  }
+  
+  .note_footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .note_footer img {
+    cursor: pointer;
+    opacity: 0;
+    transition: 300ms;
+  }
+  
+  .note:hover .note_footer img {
+    opacity: 1;
+  } */
+  .note {
+    padding: 25px;
+    height: 320px;
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    background-color: #fff;
+    border-radius: 20px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    transition: transform 300ms, box-shadow 300ms;
+  }
+  
+  .note:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+  }
+  
+  .note_text {
+    flex: 1;
+    resize: none;
+    background-color: transparent;
+    font-size: 1.1rem;
+    line-height: 1.6;
+    outline: none;
+    border: none;
+    color: #444;
+    font-family: 'Roboto', sans-serif;
+  }
+  
+  .note_footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 0.9rem;
+    color: #666;
+    margin-top: 15px;
+  }
+  
+  .note_footer img {
+    cursor: pointer;
+    opacity: 0;
+    transition: opacity 300ms;
+  }
+  
+  .note:hover .note_footer img {
+    opacity: 1;
+  }
+  
+  .note_footer p {
+    font-weight: 500;
+  }
