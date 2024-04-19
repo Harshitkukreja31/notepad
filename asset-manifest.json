@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/notepad/static/css/main.1e29d6ba.css",
+    "main.js": "/notepad/static/js/main.c3a50815.js",
+    "static/js/453.b194b481.chunk.js": "/notepad/static/js/453.b194b481.chunk.js",
+    "static/media/plus.png": "/notepad/static/media/plus.f5d4d283910a71769470.png",
+    "index.html": "/notepad/index.html",
+    "static/media/delete.svg": "/notepad/static/media/delete.c184eb9e41969d49b9cae112eb516337.svg",
+    "main.1e29d6ba.css.map": "/notepad/static/css/main.1e29d6ba.css.map",
+    "main.c3a50815.js.map": "/notepad/static/js/main.c3a50815.js.map",
+    "453.b194b481.chunk.js.map": "/notepad/static/js/453.b194b481.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.1e29d6ba.css",
+    "static/js/main.c3a50815.js"
+  ]
+}
